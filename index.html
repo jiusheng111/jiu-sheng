@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>翻译工具下载入口</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+        }
+        /* 顶部标题板块 高度固定200px */
+        .header-banner {
+            height: 200px;
+            background: #3483f3;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+            gap: 30px;
+        }
+        /* 左右图片容器 */
+        .side-img {
+            width: 180px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+        /* 中间标题文字 */
+        .banner-title {
+            flex: 1;
+            text-align: center;
+            color: #ffffff;
+            font-size: 42px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        /* 下方主体下载卡片 */
+        .container {
+            max-width: 600px;
+            margin: 80px auto 0;
+            background: #fff;
+            padding: 50px 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .container h2 {
+            color: #222;
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
+        .desc {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+        .download-btn {
+            display: block;
+            padding: 16px;
+            text-decoration: none;
+            font-size: 17px;
+            border-radius: 10px;
+            transition: 0.2s;
+            background: #3483f3;
+            color: white;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        .download-btn:hover {
+            background: #0756b3;
+        }
+        .tip {
+            margin-top: 30px;
+            color: #999;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        /* 页面最底部灰色板块 新增样式 */
+        .footer-block {
+            width: 100%;
+            background-color: #e9ecef;
+            margin-top: 100px;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .footer-text {
+            color: #555;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .footer-link-group {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          gap: 12px;
+}
+        .footer-link {
+            font-size: 14px;
+            color: #0969da;
+            text-decoration: none;
+        }
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部200px标题板块（已代入你的图片链接） -->
+    <div class="header-banner">
+      <!-- 左侧图片，替换src为你的图片链接 -->
+      <img class="side-img" src="https://i.imgs.ovh/2026/07/15/0751d9337186df75233590571a093f1e.png" alt="弱弱？">
+      <!-- 中间大标题 -->
+      <div class="banner-title">世界上最好的翻译器</div>
+      <!-- 右侧图片，替换src为你的图片链接 -->
+      <img class="side-img" src="https://i.imgs.ovh/2026/07/15/334bdb84e4db9e30f83913250e8e7948.png" alt="强强？">
+    </div>
+
+    <!-- 中间下载卡片（完全保留原有内容，无修改） -->
+    <div class="container">
+        <h2>翻译工具 下载入口</h2>
+        <p class="desc">内置完整JRE运行环境，无需手动安装Java</p>
+        <a class="download-btn" href="https://github.com/jiusheng111/jiu-sheng" target="_blank">前往工具仓库下载</a>
+        <p class="tip">
+            打开仓库页面后，找到「我给你乱翻译一下.zip」<br>
+            点击文件即可下载完整安装包
+        </p>
+    </div>
+
+    <!-- 页面最底部新增灰色板块，不影响上方所有布局 -->
+    <div class="footer-block">
+        <p class="footer-text">胡与陈的呕心沥血之作</p>
+        <div class="footer-link-group">
+            <!-- 两个链接自行修改href和文字 -->
+            <a class="footer-link" href="./readme/" target="_blank">使用前先看看这个</a>
+            <a class="footer-link" href="https://www.bilibili.com/video/BV1GJ411x7h7/?spm_id_from=333.337.search-card.all.click" target="_blank">点这个能拿一块钱</a>
+        </div>
+    </div>
+</body>
+</html>
